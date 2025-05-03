@@ -6,10 +6,10 @@ $isAzure = (getenv('WEBSITE_SITE_NAME') !== false);
 
 if ($isAzure) {
     // Connexion Azure SQL
-    $dbServer = getenv('DB_HOST');
-    $dbName = getenv('DB_NAME');
-    $dbUser = getenv('DB_USER');
-    $dbPassword = getenv('DB_PASSWORD');
+    $dbServer = getenv('grpe1-server');
+    $dbName = getenv('grpe1-database');
+    $dbUser = getenv('cuxcamgiac');
+    $dbPassword = getenv('w45$wuVtiZT9x$$r');
 } else {
     // Connexion locale MAMP
     $dbServer = '127.0.0.1';  // ou '127.0.0.1'
